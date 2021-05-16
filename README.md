@@ -1,11 +1,13 @@
-##What is Treeschema?
+## What is Treeschema?
 
 ```markdown
 
-Treeschema Data Catalog helps you find the data you need anywhere within your data ecosystem from the database all the way down to the specific values for each field
+Treeschema Data Catalog helps you find the data you need anywhere within your data ecosystem 
+from the database all the way down to the specific values for each field
 
 
-Treeschema Data Lineage helps you  explore your data lineage and understand where your data comes from and where it is going
+Treeschema Data Lineage helps you explore your data lineage 
+and understand where your data comes from and where it is going
 
 ```
 
