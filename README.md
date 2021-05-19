@@ -12,10 +12,19 @@ and understand where your data comes from and where it is going.
 https://treeschema.com/
 ```
 
+## Prerequisites
+
+```markdown
+
+1. Install Python 3.9+
+2. Install the dependencies by running the command: pip install -r requirements.txt
+
+```
 ## How to use the scripts in this repository?
 
 - mongo.config is the configuration file used to connect to the Infoworks metadata
 - tables.config is the configuration file used to connect to the TreeSchema Server
+- pipeline.config is the configuration file used for creating the Infoworks Pipeline Jobs
 
 ```markdown
 # Create Tables in TreeSchema

@@ -19,14 +19,19 @@ class TreeSchemaConnection:
 
     def create_schema(self, datastore_conn, schema_name, description):
         try:
+            if schema_name.startswith("other"):
+                schema_type = "other"
+            else:
+                schema_type = "table"
             schema_obj = {
                 'name': schema_name,
-                'type': 'table',
+                'type': schema_type,
                 'description': description
             }
             schema = datastore_conn.schema(schema_obj)
             logging.info("Table {} created successfully".format(schema_name))
             logging.info(schema)
+            return schema
         except Exception as e:
             print('Failed to create table {} in DataStore'.format(schema_name))
             logging.error('Failed to create table {} in DataStore'.format(schema_name))
