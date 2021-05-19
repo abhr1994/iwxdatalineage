@@ -41,3 +41,10 @@ python IngestionMapping.py --src_ds "SQL Server" --tgt_ds Infoworks --src_target
 # Create Export Job
 
 ```
+## If you wish to run the scripts inside docker container
+```markdown
+
+1. sudo docker build  -t datalineage:1.0.0 .
+2. sudo docker run -d datalineage:1.0.0
+
+```
