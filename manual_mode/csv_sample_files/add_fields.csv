@@ -1,0 +1,3 @@
+schema,datastore,fields
+iwx.HR_nitin.nitin_test,Infoworks,EMP_ID:integer|EMP_NAME:string
+iwx.HR_nitin.nitin_test_2,Infoworks,EMP_ID:integer|EMP_NAME:string|COMPANY:string|EMAIL:string|PAN:string|DEPT_CODE:integer
