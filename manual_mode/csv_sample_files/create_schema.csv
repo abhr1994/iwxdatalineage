@@ -1,1 +1,4 @@
-name,datastore,type,description
+schema_name,datastore,type,description
+iwx.HR_nitin.nitin_test,Infoworks,table,"this is a test table"
+iwx.HR_nitin.nitin_test_2,Infoworks,table,"this is a test table 2"
+
