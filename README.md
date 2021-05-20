@@ -45,6 +45,6 @@ python IngestionMapping.py --src_ds "SQL Server" --tgt_ds Infoworks --src_target
 ```markdown
 
 1. sudo docker build  -t datalineage:1.0.0 .
-2. sudo docker run -d datalineage:1.0.0
+2. sudo docker run -itd datalineage:1.0.0 /bin/bash
 
 ```

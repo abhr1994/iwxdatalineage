@@ -1,0 +1,2 @@
+lineage_name,datastore_mapping,schema_mapping,col_mapping
+HRIngestionTest,SQL Server:Infoworks,supportdb.dbo.dimEmployee,iwx.HR_Database.dimEmployee,EMP_ID:EMP_ID|EMP_NAME:EMP_NAME
