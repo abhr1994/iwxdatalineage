@@ -48,6 +48,12 @@ class TreeSchemaConnection:
             logging.error(str(e))
             traceback.print_exc()
 
+    def check_schema(self, datastore_conn, schema_name):
+        try:
+            return datastore_conn.schema(schema_name)
+        except Exception as e:
+            return None
+
     def create_fields(self, schema, fields):
         try:
             for key in fields.keys():
@@ -57,6 +63,7 @@ class TreeSchemaConnection:
                 }
                 schema.field(field_obj)
                 logging.info("Field {} created successfully".format(key))
+                print("Field {} created successfully".format(key))
                 logging.info(field_obj)
         except Exception as e:
             print('Failed to create Data Fields {}'.format(fields))
