@@ -37,8 +37,7 @@ python IngestionMapping.py --src_ds "SQL Server" --tgt_ds Infoworks --src_target
 
 # Create Pipeline Job
 
-
-# Create Export Job
+python CreatePipelines.py --pipeline_ids "f49482994e996d82c8f426fe"
 
 ```
 ## If you wish to run the scripts inside docker container
@@ -52,3 +51,12 @@ python IngestionMapping.py --src_ds "SQL Server" --tgt_ds Infoworks --src_target
 
 ![Alt text](screenshot.png?raw=true "Sample Lineage Output")
 
+## Links Referred
+
+```markdown
+
+1. https://treeschema.com/blog/data-lineage-api/
+2. https://developer.treeschema.com/python-client/index.html
+3. https://help.treeschema.com/catalog/transformations/transformations.html
+
+```

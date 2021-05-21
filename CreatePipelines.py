@@ -170,8 +170,7 @@ def main():
     logging.basicConfig(filename=logfile, filemode='w', level=logging.DEBUG,
                         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     parser = argparse.ArgumentParser('Create Ingestion Process')
-    parser.add_argument('--pipeline_ids', required=False, default='f49482994e996d82c8f426fe',
-                        help='Comma seperated pipeline ids here')
+    parser.add_argument('--pipeline_ids', required=True,help='Comma seperated pipeline ids here')
     args = vars(parser.parse_args())
     tsconn = TreeSchemaConnection(email, api)
     for pipeline_id in args["pipeline_ids"].split(","):
