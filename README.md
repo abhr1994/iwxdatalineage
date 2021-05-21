@@ -48,3 +48,7 @@ python IngestionMapping.py --src_ds "SQL Server" --tgt_ds Infoworks --src_target
 2. sudo docker run -itd datalineage:1.0.0 /bin/bash
 
 ```
+## Sample Lineage Output
+
+![Alt text](screenshot.png?raw=true "Sample Lineage Output")
+
